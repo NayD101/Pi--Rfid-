@@ -17,3 +17,14 @@ Capturing Card info with Raspberry Pi
 
 [Rfid NFC module](https://www.amazon.com/SunFounder-Mifare-Reader-Arduino-Raspberry/dp/B07KGBJ9VG/ref=sr_1_9?crid=3EEXYCDBQY0H2&keywords=raspberry+pi+rfid&qid=1683315512&sprefix=raspberry+pi+rfi%2Caps%2C87&sr=8-9)
 
+
+## Optional 
++ [Raspberry Pi case](https://pimylifeup.com/raspberry-pi-cases/)
++ [Ethernet cable](https://www.amazon.com/s?k=ethernet+cable&i=electronics&linkCode=ll2&linkId=02e41d9fa01024a7d309428447c04a05&tag=pimylifeup-20&ref=as_li_ss_tl)
++ [WiFi](https://www.amazon.com/gp/product/B003MTTJOY/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=pimylifeup-20&linkId=9328ab6b928f18dc755fc5c52212800b)
+
+## Link for Documentation
+
+
+
+
