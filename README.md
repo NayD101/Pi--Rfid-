@@ -29,5 +29,12 @@ https://pimylifeup.com/raspberry-pi-rfid-rc522/
 
 
 
+## Recommended 
+https://www.realvnc.com/en/connect/download/viewer/
+
+
+
+
+
 
 
