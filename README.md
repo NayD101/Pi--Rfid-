@@ -30,7 +30,12 @@ https://pimylifeup.com/raspberry-pi-rfid-rc522/
 
 
 ## Recommended 
+
++ To remote into the Raspberry Pi use VNC 
+
 https://www.realvnc.com/en/connect/download/viewer/
+
+
 
 
 
