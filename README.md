@@ -25,6 +25,9 @@ Capturing Card info with Raspberry Pi
 
 ## Link for Documentation
 
+https://pimylifeup.com/raspberry-pi-rfid-rc522/
+
+
 
 
 
