@@ -5,8 +5,8 @@ Capturing Card info with Raspberry Pi
 
 ## Purpose 
 
-+To capture card info and to write and read on to new card
-+To capture Key info that allows access to Doors, Cars, etc
++ To capture card info and to write and read on to new card
++ To capture Key info that allows access to Doors, Cars, etc
 
 
 ## Equipment 
