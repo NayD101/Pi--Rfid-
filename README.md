@@ -1,6 +1,6 @@
 # Pi--Rfid- Csn150- Finaal project
 
-#Name OF Project
+# Name OF Project
 
 Capturing Card info with Raspberry Pi
 
