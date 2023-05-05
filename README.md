@@ -1,6 +1,6 @@
-# Pi--Rfid- Csn150- Finaal project
+# Pi--Rfid- Csn150- Final project
 
-# Name OF Project
+# Name of Project
 
 Capturing Card info with Raspberry Pi
 
@@ -11,7 +11,7 @@ Capturing Card info with Raspberry Pi
 
 
 ## Equipment 
-[Raspberry Pi 3 model B](https://www.amazon.com/ELEMENT-Element14-Raspberry-Pi-Motherboard/dp/B07P4LSDYV/ref=sr_1_3?crid=2A2LYXLB9ADCK&keywords=raspberry+pi+3b&qid=1683315210&sprefix=Raspberry+pi%2Caps%2C98&sr=8-3&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc)
+[Raspberry Pi 3 model B+](https://www.amazon.com/ELEMENT-Element14-Raspberry-Pi-Motherboard/dp/B07P4LSDYV/ref=sr_1_3?crid=2A2LYXLB9ADCK&keywords=raspberry+pi+3b&qid=1683315210&sprefix=Raspberry+pi%2Caps%2C98&sr=8-3&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc)
 
 [Micro SD card](https://www.amazon.com/Amazon-Basics-microSDXC-Memory-Adapter/dp/B08TJRVWV1/ref=sr_1_1_ffob_sspa?crid=YGEUUGT5R37B&keywords=micro+sd+card&qid=1683315379&sprefix=micro+sd+card+%2Caps%2C102&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzUTlYVFMzQTFLR0YmZW5jcnlwdGVkSWQ9QTA5NzA0NzUxUURHVE9OMjdWQ0Q5JmVuY3J5cHRlZEFkSWQ9QTA2Njg3NDYzM1dDMk5KQ0QyMEJZJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
 
