@@ -1,4 +1,4 @@
-# Pi--Rfid Reader- Csn150- Final project
+# Pi--Rfid Reader
 
 # Name of Project
 
