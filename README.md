@@ -50,11 +50,15 @@ Wiring your RFID RC522 to your Raspberry Pi is fairly simple, with it requiring 
 ![Connectin pi to rfid](https://github.com/NayD101/Pi--Rfid-/blob/main/pi%20rfid%20connect.jpg)
 
 
+The following steps are from Pimpmylifeup.com 
+[How to setup a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
 
+ 1. Let’s begin by first opening the raspi-config tool, and we can do this by opening the terminal and running the following command.
 
++ sudo raspi-config
 
-
-
-
+2. This tool will load up a screen showing a variety of different options.
++ On here use the arrow keys to select “5 Interfacing Options“. Once you have this option selected, press Enter.
+3.Now on this next screen, you want to use your arrow keys to select “P4 SPI“, again press Enter to select the option once it is highlighted.
 
 
