@@ -36,7 +36,7 @@ https://pimylifeup.com/raspberry-pi-rfid-rc522/
 https://www.realvnc.com/en/connect/download/viewer/
 
 
-
+## Steps that I followed 
 
 
 
