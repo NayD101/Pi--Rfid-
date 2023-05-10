@@ -17,6 +17,9 @@ Capturing Card info with Raspberry Pi
 
 [Rfid NFC module](https://www.amazon.com/SunFounder-Mifare-Reader-Arduino-Raspberry/dp/B07KGBJ9VG/ref=sr_1_9?crid=3EEXYCDBQY0H2&keywords=raspberry+pi+rfid&qid=1683315512&sprefix=raspberry+pi+rfi%2Caps%2C87&sr=8-9)
 
+[Raspberry Pi OS](https://www.raspberrypi.com/software/)
+
+
 
 ## Optional 
 + [Raspberry Pi case](https://pimylifeup.com/raspberry-pi-cases/)
@@ -45,6 +48,8 @@ One thing you will notice when purchasing an RFID RC522 Reader is that 90% of th
 Wiring your RFID RC522 to your Raspberry Pi is fairly simple, with it requiring you to connect just 7 of the GPIO Pins directly to the RFID reader
 
 ![Connectin pi to rfid](https://github.com/NayD101/Pi--Rfid-/blob/main/pi%20rfid%20connect.jpg)
+
+
 
 
 
