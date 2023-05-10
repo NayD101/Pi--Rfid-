@@ -223,5 +223,5 @@ sudo python3 Read.py
 
 6.If you successfully receive data back from your Read.py script with the text that you pushed to the card using your Write.py script then you have successfully set up your Raspberry Pi to connect with your RFID RC522 Circuit.
 
-
+[Example video](https://github.com/NayD101/Pi--Rfid-/blob/main/2023-05-03_16-01-44.mov)
 
