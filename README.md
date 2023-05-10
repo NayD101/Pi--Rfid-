@@ -170,4 +170,58 @@ Written
 
 ## Reading with the RFID RC522
 
+Now that we have written our script to write to RFID tags using our RC522 we can now write a script that will read this data back off the tag.
+
+1.Let’s start off by changing the directory to make sure we are in the right place, and then we can run nano to begin writing our Read.py script.
+
+cd ~/pi-rfid
+
+sudo nano Read.py
+
+2. Within this file, write the following lines of code. This script will basically sit and wait till you put your RFID tag on the RFID RC522 reader, it will then output the data it reads off the tag.
+
+#!/usr/bin/env python
+
+import RPi.GPIO as GPIO
+
+from mfrc522 import SimpleMFRC522
+
+reader = SimpleMFRC522()
+
+try:
+        id, text = reader.read()
+        print(id)
+        print(text)
+        
+ finally:
+        GPIO.cleanup()
+        
+3. Now that you have finished writing your Read.py script for your RFID RC522 it should look something like what is shown below.
+
+#!/usr/bin/env python
+
+import RPi.GPIO as GPIO
+from mfrc522 import SimpleMFRC522
+
+reader = SimpleMFRC522()
+
+try:
+        id, text = reader.read()
+        print(id)
+        print(text)
+finally:
+        GPIO.cleanup()
+        
+
+Once you are sure you have entered the code correctly, you can save the file by pressing Ctrl + X then pressing Y and then finally hitting ENTER.
+
+4. Now that we have finally finished our Read.py script we need to test it out. Before we test out the script, grab one of the RFID tags that you want to read. Once that you are ready, type the following command into your Raspberry Pi’s terminal.
+
+sudo python3 Read.py
+
+5. With the script now running, all you need to do is place your RFID Tag on top of your RFID RC522 circuit. As soon as the Python script detects the RFID tag being placed on top, it will immediately read the data and print it back out to you.
+
+6.If you successfully receive data back from your Read.py script with the text that you pushed to the card using your Write.py script then you have successfully set up your Raspberry Pi to connect with your RFID RC522 Circuit.
+
+
 
