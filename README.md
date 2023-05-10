@@ -36,7 +36,15 @@ https://pimylifeup.com/raspberry-pi-rfid-rc522/
 https://www.realvnc.com/en/connect/download/viewer/
 
 
-## Steps that I followed 
+## Steps that we followed 
+
+## Assembling the RFID RC522
+
+One thing you will notice when purchasing an RFID RC522 Reader is that 90% of them don’t come with the header pins already soldered in. The missing pins mean you will have to do it yourself, luckily soldering header pins is a rather simple task, even for beginners.
+
+Wiring your RFID RC522 to your Raspberry Pi is fairly simple, with it requiring you to connect just 7 of the GPIO Pins directly to the RFID reader
+
+
 
 
 
