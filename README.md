@@ -114,24 +114,36 @@ mkdir ~/pi-rfid
 2. Begin by changing directory into our newly cloned folder, and begin writing our Write.py Python script.
 
 cd ~/pi-rfid
+
 sudo nano Write.py
 
 3.Within this file, write the following lines of code. This code will basically ask you for text to input and then write that text to the RFID Tag.
 
+
 #!/usr/bin/env python
+
 
 import RPi.GPIO as GPIO
 
+
 from mfrc522 import SimpleMFRC522
+
 
 reader = SimpleMFRC522()
 
+
 try:
+        
         text = input('New data:')
+        
         print("Now place your tag to write")
+        
         reader.write(text)
+        
         print("Written")
+
 finally:
+        
         GPIO.cleanup()
  
 4.Once you have finished writing in your script, it should look something like shown above.
