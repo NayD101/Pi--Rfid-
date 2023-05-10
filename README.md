@@ -168,3 +168,6 @@ Written
 
 8. You have now successfully written your Write.py script, and we can now proceed to show you how to read data from the RFID RC522 in the next segment of this tutorial.
 
+## Reading with the RFID RC522
+
+
