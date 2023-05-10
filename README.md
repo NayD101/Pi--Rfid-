@@ -56,7 +56,7 @@ The following steps are from Pimpmylifeup.com
 ##Setting up Raspbian for the RFID RC522
 
  1. Let’s begin by first opening the raspi-config tool, and we can do this by opening the terminal and running the following command.
- + sudo raspi-config
+  sudo raspi-config
 
 2. This tool will load up a screen showing a variety of different options.
    + On here use the arrow keys to select “5 Interfacing Options“. Once you have this option selected, press Enter.
@@ -70,5 +70,89 @@ The following steps are from Pimpmylifeup.com
 Before the SPI Interface is fully enabled we will first have to restart the Raspberry Pi. To do this first get back to the terminal by pressing Enter and then ESC.
 
 Type the following Linux command into the terminal on your Raspberry Pi to restart your Raspberry Pi.
- + sudo reboot
+  sudo reboot
+
+6.Once your Raspberry Pi has finished rebooting, we can now check to make sure that it has in fact been enabled. The easiest way to do this is to run the following command to see if spi_bcm2835 is listed.
+lsmod | grep spi
+
+## Getting Python ready for the RFID RC522
+
+1. Before we start programming, we first need to update our Raspberry Pi to ensure it’s running the latest version of all the software. Run the following two commands on your Raspberry Pi to update it.
+
+sudo apt update
+sudo apt upgrade
+
+
+2.Now the final thing we need before we can proceed is to install python3-dev, python-pip and  git packages. Simply run the following command on your Raspberry Pi to install all of the required packages for this guide on setting up your RFID reader.
+
+sudo apt install python3-dev python3-pip
+
+3.To begin, we must first install the Python Library spidev to our Raspberry Pi using the python “pip” tool that we downloaded in the previous step.
+
+The spidev library helps handle interactions with the SPI and is a key component to this tutorial as we need it for the Raspberry Pi to interact with the RFID RC522.
+
+Run the following command  on your Raspberry Pi to install spidev to your Raspberry Pi through pip.
+
+Please note that we use sudo here to ensure that the package is installed so that all users can utilize it and not just the current user.
+
+sudo pip3 install spidev
+
+
+4.Now that we have installed the spidev library to our Raspberry Pi we can now now proceed to installing the MFRC522 library using pip as well.
+To install the MFRC522 library to your Raspberry Pi using pip go ahead and run the following command.
+
+sudo pip3 install mfrc522
+
+## Writing with the RFID RC522
+
+1. Now lets start off by making a folder where we will be storing our couple of scripts.
+
+We will be calling this folder “pi-rfid”, create it by running the following command.
+
+mkdir ~/pi-rfid
+
+2. Begin by changing directory into our newly cloned folder, and begin writing our Write.py Python script.
+
+cd ~/pi-rfid
+sudo nano Write.py
+
+3.Within this file, write the following lines of code. This code will basically ask you for text to input and then write that text to the RFID Tag.
+
+#!/usr/bin/env python
+
+import RPi.GPIO as GPIO
+
+from mfrc522 import SimpleMFRC522
+
+reader = SimpleMFRC522()
+
+try:
+        text = input('New data:')
+        print("Now place your tag to write")
+        reader.write(text)
+        print("Written")
+finally:
+        GPIO.cleanup()
+ 
+4.Once you have finished writing in your script, it should look something like shown above.
+
+Once you are happy that the code looks correct, you can save the file by pressing CTRL + X then pressing Y and then finally hitting ENTER.
+
+5. Now that we have written our script, we will want to test it out. Before testing out the script make sure that you have an RFID tag handy. Once ready, type the following command into your Raspberry Pi’s terminal.
+
+sudo python3 Write.py
+
+6. You will be asked to write in the new data, in our case we are going to just type in CSN150 as its short and simple. Press Enter when you are happy with what you have written.
+
+7.With that done, simply place your RFID Tag on top of your RFID RC522 circuit. As soon as it detects it, it will immediately write the new data to the tag. You should see “Written” appear in your command line if it was successful.
+
+You can look at our example output below to see what a successful run looks like.
+
+
+pi@raspberrypi:~/pi-rfid $ sudo python3 Write.py
+New data:CSN150
+Now place your tag to write
+Written
+
+8. You have now successfully written your Write.py script, and we can now proceed to show you how to read data from the RFID RC522 in the next segment of this tutorial.
 
