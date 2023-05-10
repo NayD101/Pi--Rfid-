@@ -2,7 +2,7 @@
 
 # Name of Project
 
-Capturing Card info with Raspberry Pi
+NFC Capture
 
 ## Purpose 
 
