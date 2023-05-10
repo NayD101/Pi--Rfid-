@@ -225,3 +225,9 @@ sudo python3 Read.py
 
 ![Example video](https://github.com/NayD101/Pi--Rfid-/blob/main/2023-05-03_16-01-44.mov)
 
+## Problems completeing projects 
++ very few were encounter
++ make sure all software is updated
++ Follow instructions closely to avoid double work
+
+
