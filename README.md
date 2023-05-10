@@ -44,7 +44,7 @@ One thing you will notice when purchasing an RFID RC522 Reader is that 90% of th
 
 Wiring your RFID RC522 to your Raspberry Pi is fairly simple, with it requiring you to connect just 7 of the GPIO Pins directly to the RFID reader
 
-! (https://github.com/NayD101/Pi--Rfid-/blob/main/pi%20rfid%20connect.jpg)
+(https://github.com/NayD101/Pi--Rfid-/blob/main/pi%20rfid%20connect.jpg)
 
 
 
